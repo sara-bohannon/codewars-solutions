@@ -1,0 +1,15 @@
+public class Sum
+{
+   public int GetSum(int a, int b)
+   {
+      int start = Math.min(a, b);
+      int end = Math.max(a, b);
+      int sum = 0;
+      
+      for (int i = start; i <= end; i++) {
+         sum += i;
+      }
+      
+      return sum;
+   }
+}
